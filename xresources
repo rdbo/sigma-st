@@ -2,10 +2,10 @@ Xft.antialias:	1
 Xft.hinting:	1
 Xft.autohint:	0
 Xft.hintstyle:	hintslight
-Xft.rgba:	rgb
+Xft.rgba:		rgb
 Xft.lcdfilter:	lcddefault
 
-st.font:         JetBrainsMono Nerd Font:style:medium:pixelsize=13
+st.font: FiraCode Nerd Font:size=12
 
 ! window padding
 st.borderpx: 20
@@ -13,12 +13,12 @@ st.borderpx: 20
 !- 0.1 to 0.9 = transparency
 st.alpha: 1.0
 
-*background: #181f21
-*foreground: #dadada
+*background: #101a20
+*foreground: gray90
 
 ! Black + DarkGrey
-*color0:  #22292b
-*color8:  #575e60
+*color0:  #000000
+*color8:  gray50
 
 ! DarkRed + Red
 *color1:  #e06e6e

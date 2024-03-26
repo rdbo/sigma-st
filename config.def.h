@@ -143,8 +143,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"#101a20", /* default background colour */
+	"#101a20", /* default foreground colour */
+	"gray90", /* default background colour */
 };
 
 
@@ -152,10 +152,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 258;
-unsigned int defaultbg = 259;
 unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
+unsigned int defaultbg = 258;
+unsigned int defaultfg = 259;
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
