@@ -8,7 +8,7 @@ Xft.lcdfilter:	lcddefault
 st.font: FiraCode Nerd Font:size=12
 
 ! window padding
-st.borderpx: 20
+st.borderpx: 0
 
 !- 0.1 to 0.9 = transparency
 st.alpha: 1.0
