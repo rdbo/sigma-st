@@ -45,5 +45,5 @@ st.alpha: 1.0
 *color14: #00ffc8
 
 ! LightGrey + White
-*color7:  #b3b9b8
-*color15: #bdc3c2
+*color7:  #eeeeee
+*color15: #ffffff
