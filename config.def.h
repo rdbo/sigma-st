@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:size=12:antialias=true:autohint=true";
-static char *font2[] = { "FiraCode Nerd Font:pixelsize=15:antialias=true:autohint=true" };
+static char *font = "FiraCode Nerd Font:size=10";
+static char *font2[] = { "FiraCode Nerd Font:size=10" };
 static int borderpx = 0;
 
 /*
@@ -143,8 +143,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"#101a20", /* default foreground colour */
-	"gray90", /* default background colour */
+	"#101a20", /* default background colour */
+	"gray90", /* default foreground colour */
 };
 
 

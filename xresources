@@ -14,7 +14,7 @@ st.borderpx: 0
 st.alpha: 1.0
 
 *background: #101a20
-*foreground: gray90
+*foreground: #eeeeee
 
 ! Black + DarkGrey
 *color0:  #000000
