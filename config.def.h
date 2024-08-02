@@ -248,8 +248,8 @@ MouseKey mkeys[] = {
   /* button               mask            function        argument */
   { Button4,              XK_NO_MOD,      kscrollup,      {.i =  mousescrollincrement} },
   { Button5,              XK_NO_MOD,      kscrolldown,    {.i =  mousescrollincrement} },
-  { Button4,              Mod4Mask,        zoom,           {.f =  +1} },
-  { Button5,              Mod4Mask,        zoom,           {.f =  -1} },
+  { Button4,              MODKEY,         zoom,           {.f =  +1} },
+  { Button5,              MODKEY,         zoom,           {.f =  -1} },
 };
 
 static Shortcut shortcuts[] = {
